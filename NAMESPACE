@@ -1,0 +1,6 @@
+import(Biobase)
+
+exportClasses(celsiusServer)
+
+#exportMethods(getOntologyData,getFeatureData,getSampleData,getAssayData,getPhenoData,makeExprSet,mapIdToCelsius,getCvterms,getPlatformData,listSamplesForPlatform)
+export(getOntologyData,getFeatureData,getSampleData,getAssayData,getPhenoData,makeExprSet,mapIdToCelsius,getCvterms,getPlatformData,listSamplesForPlatform)
